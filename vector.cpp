@@ -327,7 +327,8 @@ public:
         return data_[index];
     }
 
-private:        
+private:    
+
     RawMemory<T> data_;
     size_t size_ = 0;
 };
